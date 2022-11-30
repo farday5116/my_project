@@ -94,9 +94,11 @@ The Terraform deploy is interactive, only imputing the minimal values to allow f
 
 Follow the steps below:
 1. Create an S3 bucket using the guide in the link below. Then in the *aws.tf* file, replace ==<"insert S3 bucket here">== with the name of your S3 Bucket.
+
 *https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html*
 
 2. Create your EC2 SSH key via these steps below:
+
 *https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html*
 
 **STAGE 2 -** In this stage you should first decide if you are going to Enable HTTPS with a domain, or keep it HTTP using the ALB URL. If you would like to just have ==HTTP==, then leave the deployment as is and move on to ==**stage 3**==.
