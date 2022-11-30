@@ -15,7 +15,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-  bucket     = "terraform-s3-bucket-wordpress"
+  bucket     = "<"insert S3 bucket here">"
   key        = "terraform.tfstate"
   region     = "eu-west-1"
   }

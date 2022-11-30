@@ -97,7 +97,6 @@ variable "db_instance_type" {
 
 variable "key_name" {
   description = "SSH key for EC2 instance."
-  default     = "wordpress"
 }
 
 variable "db_name" {

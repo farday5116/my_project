@@ -1,13 +1,3 @@
-data "aws_instances" "app" {
-  #instance_tags = {
-  #  Name = var.app
-  #}
-  filter {
-    name   = "tag:Name"
-    values = ["var.app"]
-  }
-}
-
 # Container template.
 
 data "template_file" "app_container" {
