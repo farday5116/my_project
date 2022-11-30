@@ -80,7 +80,7 @@ The Terraform deploy is interactive, only imputing the minimal values to allow f
 #### The deployment is divided into five parts:
 
   
-1. **STAGE 1 - Create a Terraform State S3 Bucket and upload SSH key**
+1. **STAGE 1 - _Create a Terraform State S3 Bucket and upload SSH key_**
 
 2.  **STAGE 2 - _Enable/Disable HTTPS_**
 
